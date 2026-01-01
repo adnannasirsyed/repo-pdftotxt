@@ -6,8 +6,8 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: lambda_function.lambda_handler
-      Runtime: python3.7
-      CodeUri: s3://artifacts-bucket-915028409560/edb546fc4d2bf17e8209d0d6315d476d
+      Runtime: python3.11
+      CodeUri: s3://artifacts-bucket-915028409560/68c02e67e92e03b0c4761e869b1bcbcc
       Description: ''
       MemorySize: 512
       Timeout: 900
